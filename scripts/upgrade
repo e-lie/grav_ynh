@@ -84,10 +84,10 @@ ynh_setup_source "$final_path" "app-upgrade"
 ynh_add_nginx_config
 
 #=================================================
-# INSTALL DEPENDENCIES
+# INSTALL PHP7.3 AND DEPENDENCIES
 #=================================================
 
-ynh_install_app_dependencies php7.0-zip
+ynh_install_php --phpversion="7.3" --package="php7.3-zip"
 
 #=================================================
 # CREATE DEDICATED USER
