@@ -103,7 +103,7 @@ ynh_system_user_create "$app"
 #=================================================
 
 # Create a dedicated php-fpm config
-ynh_add_fpm_config
+ynh_add_fpm_config --phpversion="7.3"
 
 #=================================================
 # SECURE FILES AND DIRECTORIES
