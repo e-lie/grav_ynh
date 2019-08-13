@@ -89,7 +89,7 @@ ynh_add_nginx_config
 # INSTALL PHP7.3 AND DEPENDENCIES
 #=================================================
 
-ynh_install_php --phpversion="7.3" --package="php7.3-zip"
+ynh_install_php --phpversion="7.3" --package="$extra_pkg_dependencies"
 
 #=================================================
 # CREATE DEDICATED USER
