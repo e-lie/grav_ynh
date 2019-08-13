@@ -66,7 +66,7 @@ ynh_app_setting_set "$app" language  "$language"
 #=================================================
 ynh_print_info --message="Installing php7.3..."
 
-ynh_install_php --phpversion="7.3" --package="php7.3-zip"
+ynh_install_php --phpversion="7.3" --package="$extra_pkg_dependencies"
 
 
 
