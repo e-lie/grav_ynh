@@ -2,7 +2,7 @@
 
 
 
-extra_pkg_dependencies="php7.3-zip php7.3-gd php7.3-xml php7.3-mbstring"
+extra_pkg_dependencies="php7.3-zip php7.3-gd php7.3-xml php7.3-mbstring php7.3-curl"
 
 
 # Execute a command as another user
